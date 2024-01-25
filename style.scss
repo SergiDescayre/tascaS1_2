@@ -3,6 +3,53 @@
 @import "./node_modules/bootstrap/scss/mixins";
 
 
+#myTab{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid grey;
+  
+
+  li button.active{
+    border:transparent;
+    border-bottom: 3px solid red;
+    
+  }
+
+  button{
+    color:black;
+    font-weight: bold;
+  }
+  
+}
+
+
+@media (max-width:576px){
+    #myTab{
+      flex-direction: column;
+      align-items: center;
+      border:none;
+        li{
+          width: 90%;
+          margin: 0 35px;
+          border:1px solid grey;
+          border-left: none;
+          border-right: none;
+        }button{
+          width: 100%;
+          font-size: 0.8rem;
+          padding:20px 0;
+         
+        }
+    
+    
+    }
+
+
+
+}
+
+
 
 @media (max-width:320px) {
     .container-button{
