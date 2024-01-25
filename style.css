@@ -1,6 +1,10 @@
 @charset "UTF-8";
+p {
+  color: grey;
+}
+
 #myTab {
-  width: 500px;
+  width: 600px;
   display: flex;
   justify-content: center;
   border-bottom: 1px solid grey;
@@ -14,7 +18,20 @@
   font-weight: bold;
 }
 
+.container-cards {
+  min-height: 500px;
+}
+
+.card-dotted {
+  width: 100%;
+  border-top: 4px grey dotted;
+}
+
 @media (max-width: 576px) {
+  .card {
+    width: 300px;
+    margin: 0 auto;
+  }
   #myTab {
     flex-direction: column;
     align-items: center;
