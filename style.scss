@@ -75,6 +75,12 @@ p{
           padding:20px 0;
         }
     }
+    .container_menu,
+    .container_menu div:first-child{
+      flex-direction: column;
+      align-items: center;
+      gap:10px;
+    }
 }
 
 
