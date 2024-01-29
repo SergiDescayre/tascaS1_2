@@ -23,8 +23,26 @@ p{
     color:black;
     font-weight: bold;
   }
-  
 }
+
+#askAcordion{
+ 
+  .accordion-item{
+    border-left: none;
+    border-right: none;
+  }
+
+  .accordion-item:first-of-type .accordion-button {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+  .accordion-item:last-of-type .accordion-button {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+}
+
 .container-cards{
   min-height: 500px;
 }
