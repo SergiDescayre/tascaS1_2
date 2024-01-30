@@ -6,6 +6,11 @@ p{
   color:grey;
 }
 
+form  .btn-danger:hover{
+  background-color: white;
+  color:#FA5959
+}
+
 #myTab{
   width: 600px;
   display: flex;
@@ -22,6 +27,12 @@ p{
   button{
     color:black;
     font-weight: bold;
+  }
+
+  button:hover{
+    color:#FA5959;
+    border:transparent;
+    
   }
 }
 
@@ -52,6 +63,30 @@ p{
   border-top: 4px grey dotted;
 }
 
+.navbar .navbar-nav .nav-link:hover{
+  color:#FA5959;
+}
+
+.container-button .btn-primari:hover,
+.card-dotted .btn-primari:hover{
+  background-color: white;
+  color:#5265E1
+}
+
+.container-button .btn-secondary:hover{
+  background-color: white;
+  color:#6c757d
+}
+
+.navbar .btn:hover{
+  color:#FA5959;
+  background-color: white;
+  
+}
+.accordion-button:hover {
+  color:#FA5959;
+}
+
 
 @media (max-width:576px){
     .card{
@@ -80,6 +115,10 @@ p{
       flex-direction: column;
       align-items: center;
       gap:10px;
+    }
+
+    .container_menu div:nth-child(2){
+      margin-top:25px;
     }
 }
 
