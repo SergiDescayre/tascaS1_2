@@ -2,13 +2,17 @@
 @import "./node_modules/bootstrap/scss/variables";
 @import "./node_modules/bootstrap/scss/mixins";
 
+$color-parrafo:#808080;
+$color-secundario:#fa5959;
+$color-primario:#5265E1;
+
 p{
-  color:grey;
+  color:$color-parrafo;
 }
 
 form  .btn-danger:hover{
   background-color: white;
-  color:#FA5959
+  color:$color-secundario
 }
 
 
@@ -21,7 +25,7 @@ form  .btn-danger:hover{
 
   li button.active{
     border:transparent;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid $color-secundario;
     
   }
 
@@ -31,7 +35,7 @@ form  .btn-danger:hover{
   }
 
   button:hover{
-    color:#FA5959;
+    color:$color-secundario;
     border:transparent;
     
   }
@@ -54,9 +58,8 @@ form  .btn-danger:hover{
   }
 
   .accordion-button:after { 
-    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='red'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='blue'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
   }
-
 }
 
 .container-cards{
@@ -69,13 +72,13 @@ form  .btn-danger:hover{
 }
 
 .navbar .navbar-nav .nav-link:hover{
-  color:#FA5959;
+  color:$color-secundario;
 }
 
 .container-button .btn-primari:hover,
 .card-dotted .btn-primari:hover{
   background-color: white;
-  color:#5265E1
+  color:$color-primario
 }
 
 .container-button .btn-secondary:hover{
@@ -84,14 +87,17 @@ form  .btn-danger:hover{
 }
 
 .navbar .btn:hover{
-  color:#FA5959;
+  color:$color-secundario;
   background-color: white;
   
 }
 .accordion-button:hover {
-  color:#FA5959;
+  color:$color-secundario;
 }
 
+.container_menu .nav-item:hover{
+  color:$color-secundario !important
+}
 
 @media (max-width:576px){
     .card{

@@ -1,11 +1,11 @@
 @charset "UTF-8";
 p {
-  color: grey;
+  color: #808080;
 }
 
 form .btn-danger:hover {
   background-color: white;
-  color: #FA5959;
+  color: #fa5959;
 }
 
 #myTab {
@@ -16,14 +16,14 @@ form .btn-danger:hover {
 }
 #myTab li button.active {
   border: transparent;
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid #fa5959;
 }
 #myTab button {
   color: black;
   font-weight: bold;
 }
 #myTab button:hover {
-  color: #FA5959;
+  color: #fa5959;
   border: transparent;
 }
 
@@ -40,7 +40,7 @@ form .btn-danger:hover {
   border-bottom-left-radius: 0;
 }
 #askAcordion .accordion-button:after {
-  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='red'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='blue'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
 }
 
 .container-cards {
@@ -53,7 +53,7 @@ form .btn-danger:hover {
 }
 
 .navbar .navbar-nav .nav-link:hover {
-  color: #FA5959;
+  color: #fa5959;
 }
 
 .container-button .btn-primari:hover,
@@ -68,12 +68,16 @@ form .btn-danger:hover {
 }
 
 .navbar .btn:hover {
-  color: #FA5959;
+  color: #fa5959;
   background-color: white;
 }
 
 .accordion-button:hover {
-  color: #FA5959;
+  color: #fa5959;
+}
+
+.container_menu .nav-item:hover {
+  color: #fa5959 !important;
 }
 
 @media (max-width: 576px) {
